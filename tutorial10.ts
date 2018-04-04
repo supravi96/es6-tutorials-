@@ -1,12 +1,12 @@
-let num1;
-const num2=10;
-
-const obj1 = {
-    name:"shenoy"
+var getRegValue = function () {
+    return 10;
 }
 
-console.log(obj1.name)
+console.log(getRegValue())
 
-obj1.name = "dsouza";
+const getArrowValue = (m,bonus) => 20 * m+bonus;
 
-console.log(obj1.name)
+console.log(getArrowValue(5,5))
+
+console.log(typeof getArrowValue)
+

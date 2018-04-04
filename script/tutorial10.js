@@ -1,10 +1,9 @@
 "use strict";
-var num1;
-var num2 = 10;
-var obj1 = {
-    name: "shenoy"
+var getRegValue = function () {
+    return 10;
 };
-console.log(obj1.name);
-obj1.name = "dsouza";
-console.log(obj1.name);
+console.log(getRegValue());
+var getArrowValue = function (m, bonus) { return 20 * m + bonus; };
+console.log(getArrowValue(5, 5));
+console.log(typeof getArrowValue);
 //# sourceMappingURL=tutorial10.js.map
